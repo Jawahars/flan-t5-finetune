@@ -1,0 +1,17 @@
+[project]
+name = "flan-t5-finetune-host"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "accelerate",
+    "faiss-cpu>=1.12.0",
+    "gradio>=5.43.1",
+    "pandas>=2.3.2",
+    "peft",
+    "rank-bm25>=0.2.2",
+    "sentence-transformers",
+    "torch>=2.8.0",
+    "transformers",
+]
