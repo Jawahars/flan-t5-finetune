@@ -1,3 +1,1 @@
-```sh
-uv run app.py
-```
+# Study of Retrieval-Augmented Generation (RAG) vs Finetuning
